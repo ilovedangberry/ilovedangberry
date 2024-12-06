@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    background-image: url('assets/bg.jpg');
+    background-repeat: repeat; /* This will repeat the image both vertically and horizontally */
+    background-size: auto; /* Keeps the original size of the image */
+    font-family: ComicSans !important;
+    color: white;
+
+}
+#play-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+@font-face {
+    font-family: 'ComicSans';
+    src: url('assets/comicsans.ttf') format('truetype');
+}
+
+
+.main {
+
+    margin: 0 auto;
+    width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 300px;
+}
+
+.space-above {
+    margin-top: 100px;
+}
